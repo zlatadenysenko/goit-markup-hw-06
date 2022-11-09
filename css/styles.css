@@ -712,6 +712,8 @@ body {
   position: absolute;
   top: 8px;
   right: 8px;
+  transition: fill 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover,
